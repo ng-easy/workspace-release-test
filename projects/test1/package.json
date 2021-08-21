@@ -2,10 +2,10 @@
   "name": "@ng-easy/test1",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^9.1.13",
-    "@angular/core": "^9.1.13"
+    "@angular/common": "^12.2.2",
+    "@angular/core": "^12.2.2"
   },
   "dependencies": {
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   }
 }
