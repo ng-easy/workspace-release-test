@@ -27,7 +27,7 @@
     "@angular-devkit/build-angular": "~12.2.3",
     "@angular/cli": "~12.2.3",
     "@angular/compiler-cli": "~12.2.3",
-    "@ng-easy/builders": "^3.3.2",
+    "@ng-easy/builders": "^3.3.4",
     "@nrwl/workspace": "^12.7.2",
     "@types/node": "^16.7.1",
     "ng-packagr": "^12.2.1",
