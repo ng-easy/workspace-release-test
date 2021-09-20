@@ -22,7 +22,12 @@
           }
         },
         "release": {
-          "builder": "@ng-easy/builders:semantic-release"
+          "builder": "@ng-easy/builders:semantic-release",
+          "configurations": {
+            "local": {
+              "force": true
+            }
+          }
         }
       }
     },
@@ -45,7 +50,12 @@
           }
         },
         "release": {
-          "builder": "@ng-easy/builders:semantic-release"
+          "builder": "@ng-easy/builders:semantic-release",
+          "configurations": {
+            "local": {
+              "force": true
+            }
+          }
         }
       }
     }
