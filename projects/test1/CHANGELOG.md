@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ng-easy/workspace-release-test/compare/@ng-easy/test1@1.0.0...@ng-easy/test1@1.0.1) (2021-09-20)
+
+
+### Bug Fixes
+
+* **test1:** bump version ([16db78d](https://github.com/ng-easy/workspace-release-test/commit/16db78d8afc1c651d4376cf15bcb400c6ffe8ebd))
+
 # 1.0.0 (2021-09-20)
 
 
