@@ -35,5 +35,5 @@ jobs:
         run: npx ng run test2:release
         env:
           CI: true
-          NPM_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          NPM_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }} # Personal access token with repo permissions
