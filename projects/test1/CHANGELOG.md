@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ng-easy/workspace-release-test/compare/@ng-easy/test1@1.0.1...@ng-easy/test1@1.0.2) (2021-09-20)
+
+
+### Bug Fixes
+
+* **test1:** use correct relese token ([8492b09](https://github.com/ng-easy/workspace-release-test/commit/8492b0915d3d8d5a8d67ed8ebda055fd3d87444e))
+
 ## [1.0.1](https://github.com/ng-easy/workspace-release-test/compare/@ng-easy/test1@1.0.0...@ng-easy/test1@1.0.1) (2021-09-20)
 
 
