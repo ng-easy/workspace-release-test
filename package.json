@@ -29,7 +29,7 @@
     "@angular/compiler-cli": "~13.0.3",
     "@ng-easy/builders": "^3.4.8",
     "@types/node": "^16.11.12",
-    "ng-packagr": "^13.0.8",
+    "ng-packagr": "^13.1.1",
     "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
     "typescript": "~4.3.5"
