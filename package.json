@@ -28,7 +28,7 @@
     "@angular/cli": "~13.1.2",
     "@angular/compiler-cli": "~13.1.1",
     "@ng-easy/builders": "^4.0.3",
-    "@types/node": "^16.11.17",
+    "@types/node": "^16.11.19",
     "ng-packagr": "^13.1.2",
     "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
