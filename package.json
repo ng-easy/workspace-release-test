@@ -27,7 +27,7 @@
     "@angular-devkit/build-angular": "~13.2.6",
     "@angular/cli": "~13.2.6",
     "@angular/compiler-cli": "~13.2.6",
-    "@ng-easy/builders": "^5.2.2",
+    "@ng-easy/builders": "^6.0.2",
     "@types/node": "^16.11.26",
     "ng-packagr": "^13.2.1",
     "prettier": "^2.5.1",
