@@ -30,7 +30,7 @@
     "@ng-easy/builders": "^6.0.2",
     "@types/node": "^16.11.26",
     "ng-packagr": "^13.2.1",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
     "typescript": "~4.3.5"
   }
