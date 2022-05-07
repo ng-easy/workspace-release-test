@@ -1,0 +1,62 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  npm:
+    name: NPM
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3.0.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3.1.1
+        with:
+          node-version: 16.x
+
+      - name: NPM
+        uses: ng-easy/npm-setup@v2.0.2
+
+  build:
+    name: Build
+    needs: [npm]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3.0.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3.1.1
+        with:
+          node-version: 16.x
+
+      - name: NPM
+        uses: ng-easy/npm-setup@v2.0.2
+
+      - name: Build
+        run: npm run build
+
+  lint:
+    name: Lint
+    needs: [npm]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3.0.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3.1.1
+        with:
+          node-version: 16.x
+
+      - name: NPM
+        uses: ng-easy/npm-setup@v2.0.2
+
+      - name: Build
+        run: npm run lint
