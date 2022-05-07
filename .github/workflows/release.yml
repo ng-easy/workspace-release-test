@@ -22,7 +22,7 @@ jobs:
           node-version: 14.x
 
       - name: NPM
-        uses: ng-easy/npm-setup@v2.0.1
+        uses: ng-easy/npm-setup@v2.0.2
 
       - name: Release library test1
         run: npx ng run test1:release
