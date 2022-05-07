@@ -28,6 +28,15 @@
               "force": true
             }
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/test1/**/*.ts",
+              "projects/test1/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -55,6 +64,15 @@
             "local": {
               "force": true
             }
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/test2/**/*.ts",
+              "projects/test2/**/*.html"
+            ]
           }
         }
       }
