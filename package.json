@@ -3,11 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve test1",
+    "build": "ng build test1 && ng build test2",
+    "lint": "ng lint test1 && ng lint test2"
   },
   "engines": {
     "node": ">=16.14.0",
