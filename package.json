@@ -35,7 +35,7 @@
     "@angular/cli": "^14.1.0",
     "@angular/compiler-cli": "^14.1.0",
     "@ng-easy/builders": "^9.1.4",
-    "@types/node": "^16.11.45",
+    "@types/node": "^16.11.46",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "eslint": "^8.20.0",
