@@ -34,7 +34,7 @@
     "@angular-eslint/template-parser": "^14.1.2",
     "@angular/cli": "^14.2.5",
     "@angular/compiler-cli": "^14.2.5",
-    "@ng-easy/builders": "^9.1.18",
+    "@ng-easy/builders": "^9.1.19",
     "@types/node": "^16.11.64",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
